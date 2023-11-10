@@ -1,0 +1,32 @@
+.row{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* thazhe olla scroll bar kalayan */
+::-webkit-scrollbar{  
+    display: none;
+}
+
+.movie-row{
+    display: flex;
+    /* overflow-x:scroll images side lek move chyyan */
+    overflow-x: scroll; 
+    margin-top: 20px;
+}
+
+.movie{
+    width: 100%;
+    height: 220px;
+    margin-right: 15px;
+    transition: 460ms;
+}
+
+.movie:hover{
+    transform: scale(1.06);
+}
+
+.movie_poster{
+    height: 350px;
+}
+
